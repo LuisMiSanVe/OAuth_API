@@ -13,11 +13,21 @@ The main files of the project are:
 - Program.cs: has the main configuration of the project and works as the Resource Server.
 - Users.cs: provisional class that have declared the different users and it's permissions.
 > [!WARNING]
-> Users are hardcoded, is recomendable to replace it with an actual database of users server.
+> Users are hardcoded, is recomendable to replace it with an actual database of users.
 - Model/Client.cs: is the scheme or model of the object that our endpoint retrieve.
 - Controllers/EndpointsController.cs: It's the controller where the endspoints are contained.
 - Controllers/LoginController.cs: It's the controller where the Login endpoint is contained and works as the Authentication Server.
 ## Project Usage Explanation
-Using the image above as guiance, the green part, as I said earlier, is the authentication process, it happens when a client logs in successfully and gets an Token.
+Using the image above as guiance, the green part, as I said earlier, is the authentication process, it happens when a client logs in successfully and gets an JWT Bearer-type Token.
 Meanwhile the orange part, the authorization process, ocurs when the client, already logged in, tries to access a endpoint, and if the token is valid, it returns the resources given by the endpoint.
-> This is a summary of the [Documentation]() which has a guide included.
+> This is a summary of the [Documentation]() which includes a short guide.
+## Technologies used
+- Programming Lenguage: C#
+- Framework: ASP.NET Core (Project made with .Net 8.0 Framework)
+- NuGets:
+  - Swashbuckle.AapNetCore (6.4.0)
+  - Swashbuckle.AspNetCore.Annotations (6.6.2)
+  - Microsoft.AspNetCore.authentication.JwtBearer (8.0.6)
+- Other:
+  - OAuth 2.0 (Protocol)
+  - JWT Bearer (Token type)
