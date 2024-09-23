@@ -20,7 +20,7 @@ The main files of the project are:
 ## Project Usage Explanation
 Using the image above as guiance, the green part, as I said earlier, is the authentication process, it happens when a client logs in successfully and gets an JWT Bearer-type Token.
 Meanwhile the orange part, the authorization process, ocurs when the client, already logged in, tries to access a endpoint, and if the token is valid, it returns the resources given by the endpoint.
-> This is a summary of the [Documentation]() which includes a short guide.
+> This is a summary of the [Documentation](/RepositoryResources/Documentation.pdf) which includes a short guide.
 ## Technologies used
 - Programming Lenguage: C#
 - Framework: ASP.NET Core (Project made with .Net 8.0 Framework)
