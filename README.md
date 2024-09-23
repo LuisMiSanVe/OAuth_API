@@ -31,3 +31,4 @@ Meanwhile the orange part, the authorization process, ocurs when the client, alr
 - Other:
   - OAuth 2.0 (Protocol)
   - JWT Bearer (Token type)
+- Recomended IDE: Visual Studio 2022
