@@ -2,7 +2,7 @@
 It's an client-themed REST API Template with OAuth 2.0 implemented in a built-in Identity Server (as a class) with user hierarchy.
 ## OAuth 2.0 Explanation
 OAuth 2.0 is an token-based authentication protocol. It's implementation consists in having an Authentication Server (OAuth Server) and a Resource Server.
-As you can see in the image, the process is split in two, the green part would be the authentication part where the OAuth 2.0 protocol takes place and the orange one, where the authorization takes place.
+As you can see in the image, the process is split in two, the green part would be the authentication part where the OAuth 2.0 protocol takes place and the orange one, where the authorization takes place.\
 <img src="/RepositoryResources/oauthprocess.png" width="500" alt="OAuth 2.0 Protocol Explanation Process">
 ## About the project
 This is a functional Template where you have 2 sections (controllers):
