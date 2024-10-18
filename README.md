@@ -25,7 +25,7 @@ Meanwhile the orange part, the authorization process, ocurs when the client, alr
 - Programming Lenguage: C#
 - Framework: ASP.NET Core (Project made with .Net 8.0 Framework)
 - NuGets:
-  - Swashbuckle.AapNetCore (6.4.0)
+  - Swashbuckle.AspNetCore (6.4.0)
   - Swashbuckle.AspNetCore.Annotations (6.6.2)
   - Microsoft.AspNetCore.authentication.JwtBearer (8.0.6)
 - Other:
