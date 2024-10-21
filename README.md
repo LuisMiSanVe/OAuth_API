@@ -22,6 +22,13 @@ Using the image above as guiance, the green part, as I said earlier, is the auth
 Meanwhile the orange part, the authorization process, ocurs when the client, already logged in, tries to access a endpoint, and if the token is valid, it returns the resources given by the endpoint.\
 This repository is meant to be used as a template for your new securized REST API.
 > This is a summary of the [Documentation](/RepositoryResources/Documentation.pdf) which includes a short guide.
+
+## 🎨 Customization Options
+A bunch of the Swashbuckle's Swagger customization options are included in the template.\
+Such as having more than one Swagger Document, Custom names for Controllers and Endpoints, a searchbox and even custom CSS.\
+The majority of these options can be changed in `OAuth_API/Program.cs` on the `app.UseSwaggerUI(options =>` lambda expresion.\
+In order to add custom files like images or style sheets, you'll need to place them in the special folder `wwwroot`. An empty .css file is already created.
+> If you're only interested in the security configurations, use the [oauthonly](https://github.com/LuisMiSanVe/OAuth_API/tree/oauthonly) branch.
 ## 💻 Technologies used
 - Programming Lenguage: C#
 - Framework: ASP.NET Core (Project made with .Net 8.0 Framework)
