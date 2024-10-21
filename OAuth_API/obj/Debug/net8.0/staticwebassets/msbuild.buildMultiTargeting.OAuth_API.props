@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\OAuth_API.props" />
+</Project>
