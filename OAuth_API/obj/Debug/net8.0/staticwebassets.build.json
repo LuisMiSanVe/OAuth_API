@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "F+2ALDLYn+fNo/CrIWBHrT5+bmqBhglwPKkuZ4rDDpw=",
+  "Source": "OAuth_API",
+  "BasePath": "_content/OAuth_API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "OAuth_API\\wwwroot",
+      "Source": "OAuth_API",
+      "ContentRoot": "C:\\Users\\LM.Sanchez\\source\\repos\\OAuth_API-main\\OAuth_API-main\\OAuth_API\\OAuth_API\\wwwroot\\",
+      "BasePath": "_content/OAuth_API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
