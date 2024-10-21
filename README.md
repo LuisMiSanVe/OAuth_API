@@ -18,8 +18,9 @@ The main files of the project are:
 - Controllers/EndpointsController.cs: It's the controller where the endspoints are contained.
 - Controllers/LoginController.cs: It's the controller where the Login endpoint is contained and works as the Authentication Server.
 ## 🚀 Project Usage Explanation
-Using the image above as guiance, the green part, as I said earlier, is the authentication process, it happens when a client logs in successfully and gets an JWT Bearer-type Token.
-Meanwhile the orange part, the authorization process, ocurs when the client, already logged in, tries to access a endpoint, and if the token is valid, it returns the resources given by the endpoint.
+Using the image above as guiance, the green part, as I said earlier, is the authentication process, it happens when a client logs in successfully and gets an JWT Bearer-type Token.\
+Meanwhile the orange part, the authorization process, ocurs when the client, already logged in, tries to access a endpoint, and if the token is valid, it returns the resources given by the endpoint.\
+This repository is meant to be used as a template for your new securized REST API.
 > This is a summary of the [Documentation](/RepositoryResources/Documentation.pdf) which includes a short guide.
 ## 💻 Technologies used
 - Programming Lenguage: C#
