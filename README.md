@@ -29,7 +29,7 @@ Muchas de las opciones del Swagger de Swashbuckle están incluidos en la plantil
 Cosas como tener más de un documento de Swagger, nombres personalizados para controladores y endpoints, una barra de busqueda e incluso CSS personalizables.\
 La mayoría de estas opciones pueden ser cambiadas en `OAuth_API/Program.cs` dentro de la expresión lambda `app.UseSwaggerUI(options =>`.\ 
 Para añadir ficheros personalizados como imagenes o hojas de estilo, necesitarás ponerlas en la carpeta especial `wwwroot`. Un archivo .css vacio ya viene creado.
-> Si solo te interesan las configuraciones de securización, usa la rama de [oauthonly](https://github.com/LuisMiSanVe/OAuth_API/tree/oauthonly).
+> Si solo te interesan las configuraciones de securización, usa la rama de [oauthonly](https://github.com/LuisMiSanVe/OAuth_API/tree/oauthonly) (Solo ingles).
 ## 💻 Tecnologías usadas
 - Lenguaje de programación: C#
 - Framework: ASP.NET Core (Proyecto creado con el Framework .Net 8.0)
