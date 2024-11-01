@@ -1,3 +1,4 @@
+> [Ver en ingles/See in english](https://github.com/LuisMiSanVe/OAuth_API/tree/main)
 # 🔐 C# REST API con OAuth 2.0
 REST API tematizada de Clientes con OAuth 2.0 implementado y un Servidor de Identidad integrado (como una clase) con jerarquia de usuarios.
 ## 📝 Explicación de OAuth 2.0
