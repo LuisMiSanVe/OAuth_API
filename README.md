@@ -11,13 +11,13 @@ Es una plantilla funcional con dos secciones (Controladores):
 - Endpoints: contiene el resto de endpoints de la API, incluye dos, uno puede ejecutarlo cualquier usuario pero el otro requiere de permisos de Administrador.
 ## 📂 Archivos
 Los archivos principales del proyecto son:
-- Program.cs: tiene la configuración principal y funciona como el Servidor de Recursos.
-- Users.cs: clase provisional con los usuarios y los permisos de estos declarados.
+- [Program.cs](https://github.com/LuisMiSanVe/OAuth_API/blob/main/OAuth_API/Program.cs): tiene la configuración principal y funciona como el Servidor de Recursos.
+- [Users.cs](https://github.com/LuisMiSanVe/OAuth_API/blob/main/OAuth_API/Users.cs): clase provisional con los usuarios y los permisos de estos declarados.
 > [!WARNING]
 > Los usuarios están hardcodeados, es recomendable reemplazarlo con una base de datos de usuarios real.
-- Model/Client.cs: es el la plantilla o esquema del objeto que devuelve la API.
-- Controllers/EndpointsController.cs: El controlador que contiene los endpoints.
-- Controllers/LoginController.cs: El controlador que contiene el endpoint de Inicio de Sesión, que funciona como el Servidor de Autentificación.
+- [Model/Client.cs](https://github.com/LuisMiSanVe/OAuth_API/blob/main/OAuth_API/Model/Client.cs): es el la plantilla o esquema del objeto que devuelve la API.
+- [Controllers/EndpointsController.cs](https://github.com/LuisMiSanVe/OAuth_API/blob/main/OAuth_API/Controllers/EndpointsController.cs): El controlador que contiene los endpoints.
+- [Controllers/LoginController.cs](https://github.com/LuisMiSanVe/OAuth_API/blob/main/OAuth_API/Controllers/LoginController.cs): El controlador que contiene el endpoint de Inicio de Sesión, que funciona como el Servidor de Autentificación.
 ## 🚀 Explicación de uso del proyecto
 Usando la imagen de arriba como guía, la parte verde, como expliqué antes, es el proceso de autentificación, este ocurre cuando el usuario inicia sesión correctamente y consigue un token tipo JWT Bearer.\
 Mientras que la parte naranja, el proceso de autorización, ocurre cuando el usuario, con la sesión ya activa, intenta acceder un endpoint, y si el token es válido, devuelve el recurso solicitado por el endpoint.\
@@ -27,8 +27,8 @@ Este repositorio está pensado para ser una plantilla para tu nueva REST API sec
 ## 🎨 Opciones de Personalización
 Muchas de las opciones del Swagger de Swashbuckle están incluidos en la plantilla.\
 Cosas como tener más de un documento de Swagger, nombres personalizados para controladores y endpoints, una barra de busqueda e incluso CSS personalizables.\
-La mayoría de estas opciones pueden ser cambiadas en `OAuth_API/Program.cs` dentro de la expresión lambda `app.UseSwaggerUI(options =>`.\ 
-Para añadir ficheros personalizados como imagenes o hojas de estilo, necesitarás ponerlas en la carpeta especial `wwwroot`. Un archivo .css vacio ya viene creado.
+La mayoría de estas opciones pueden ser cambiadas en [OAuth_API/Program.cs](https://github.com/LuisMiSanVe/OAuth_API/blob/main/OAuth_API/Program.cs) dentro de la expresión lambda `app.UseSwaggerUI(options =>`.<br> 
+Para añadir ficheros personalizados como imagenes o hojas de estilo, necesitarás ponerlas en la carpeta especial [wwwroot](https://github.com/LuisMiSanVe/OAuth_API/tree/main/OAuth_API/wwwroot). Un archivo .css vacio ya viene creado.
 > Si solo te interesan las configuraciones de securización, usa la rama de [oauthonly](https://github.com/LuisMiSanVe/OAuth_API/tree/oauthonly) (Solo ingles).
 ## 💻 Tecnologías usadas
 - Lenguaje de programación: C#
