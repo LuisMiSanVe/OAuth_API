@@ -10,13 +10,13 @@ This is a functional Template where you have 2 sections (controllers):
 - Endpoints: it contains the rest of endpoints of the API, it only includes two, one can be executed with a non-admin account but the other one requires administrator permissions.
 ## 📂 Files
 The main files of the project are:
-- Program.cs: has the main configuration of the project and works as the Resource Server.
-- Users.cs: provisional class that have declared the different users and it's permissions.
+- [Program.cs](https://github.com/LuisMiSanVe/OAuth_API/blob/oauthonly/OAuth_API/Program.cs): has the main configuration of the project and works as the Resource Server.
+- [Users.cs](https://github.com/LuisMiSanVe/OAuth_API/blob/oauthonly/OAuth_API/Users.cs): provisional class that have declared the different users and it's permissions.
 > [!WARNING]
 > Users are hardcoded, is recomendable to replace it with an actual database of users.
-- Model/Client.cs: is the scheme or model of the object that our endpoint retrieve.
-- Controllers/EndpointsController.cs: It's the controller where the endspoints are contained.
-- Controllers/LoginController.cs: It's the controller where the Login endpoint is contained and works as the Authentication Server.
+- [Model/Client.cs](https://github.com/LuisMiSanVe/OAuth_API/blob/oauthonly/OAuth_API/Model/Client.cs): is the scheme or model of the object that our endpoint retrieve.
+- [Controllers/EndpointsController.cs](https://github.com/LuisMiSanVe/OAuth_API/blob/oauthonly/OAuth_API/Controllers/EndpointsController.cs): It's the controller where the endspoints are contained.
+- [Controllers/LoginController.cs](https://github.com/LuisMiSanVe/OAuth_API/blob/oauthonly/OAuth_API/Controllers/LoginController.cs): It's the controller where the Login endpoint is contained and works as the Authentication Server.
 ## 🚀 Project Usage Explanation
 Using the image above as guiance, the green part, as I said earlier, is the authentication process, it happens when a client logs in successfully and gets an JWT Bearer-type Token.\
 Meanwhile the orange part, the authorization process, ocurs when the client, already logged in, tries to access a endpoint, and if the token is valid, it returns the resources given by the endpoint.\
