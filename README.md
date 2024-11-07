@@ -31,13 +31,13 @@ La mayoría de estas opciones pueden ser cambiadas en [OAuth_API/Program.cs](htt
 Para añadir ficheros personalizados como imagenes o hojas de estilo, necesitarás ponerlas en la carpeta especial [wwwroot](https://github.com/LuisMiSanVe/OAuth_API/tree/main/OAuth_API/wwwroot). Un archivo .css vacio ya viene creado.
 > Si solo te interesan las configuraciones de securización, usa la rama de [oauthonly](https://github.com/LuisMiSanVe/OAuth_API/tree/oauthonly) (Solo ingles).
 ## 💻 Tecnologías usadas
-- Lenguaje de programación: C#
-- Framework: ASP.NET Core (Proyecto creado con el Framework .Net 8.0)
+- Lenguaje de programación: [C#](https://dotnet.microsoft.com/es-es/languages/csharp)
+- Framework: [ASP.NET Core](https://dotnet.microsoft.com/es-es/apps/aspnet) (Proyecto creado con el Framework [.Net](https://dotnet.microsoft.com/es-es/learn/dotnet/what-is-dotnet) 8.0)
 - NuGets:
-  - Swashbuckle.AspNetCore (6.4.0)
-  - Swashbuckle.AspNetCore.Annotations (6.6.2)
-  - Microsoft.AspNetCore.authentication.JwtBearer (8.0.6)
+  - [Swashbuckle.AspNetCore](https://github.com/domaindrivendev/Swashbuckle.AspNetCore) (6.4.0)
+  - [Swashbuckle.AspNetCore.Annotations](https://github.com/domaindrivendev/Swashbuckle.AspNetCore?tab=readme-ov-file#swashbuckleaspnetcoreannotations) (6.6.2)
+  - [Microsoft.AspNetCore.authentication.JwtBearer](https://www.nuget.org/packages/Microsoft.AspNetCore.Authentication.JwtBearer) (8.0.6)
 - Otros:
-  - OAuth 2.0 (Protocolo)
-  - JWT Bearer (Tipo de Token)
-- IDE Recomendado: Visual Studio 2022
+  - [OAuth 2.0](https://oauth.net/2/) (Protocol)
+  - [JWT Bearer](https://jwt.io/introduction) (Token type)
+- IDE Recomendado: [Visual Studio](https://visualstudio.microsoft.com/) 2022
