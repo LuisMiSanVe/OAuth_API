@@ -23,13 +23,13 @@ Meanwhile the orange part, the authorization process, ocurs when the client, alr
 This repository is meant to be used as a template for your new securized REST API.
 > This is a summary of the [Documentation](/RepositoryResources/Documentation.pdf) which includes a short guide.
 ## 💻 Technologies used
-- Programming Lenguage: C#
-- Framework: ASP.NET Core (Project made with .Net 8.0 Framework)
+- Programming Lenguage: [C#](https://dotnet.microsoft.com/en-us/languages/csharp)
+- Framework: [ASP.NET Core](https://dotnet.microsoft.com/en-us/apps/aspnet) (Project made with [.Net](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet) 8.0 Framework)
 - NuGets:
-  - Swashbuckle.AspNetCore (6.4.0)
-  - Swashbuckle.AspNetCore.Annotations (6.6.2)
-  - Microsoft.AspNetCore.authentication.JwtBearer (8.0.6)
+  - [Swashbuckle.AspNetCore](https://github.com/domaindrivendev/Swashbuckle.AspNetCore) (6.4.0)
+  - [Swashbuckle.AspNetCore.Annotations](https://github.com/domaindrivendev/Swashbuckle.AspNetCore?tab=readme-ov-file#swashbuckleaspnetcoreannotations) (6.6.2)
+  - [Microsoft.AspNetCore.authentication.JwtBearer](https://www.nuget.org/packages/Microsoft.AspNetCore.Authentication.JwtBearer) (8.0.6)
 - Other:
-  - OAuth 2.0 (Protocol)
-  - JWT Bearer (Token type)
-- Recommended IDE: Visual Studio 2022
+  - [OAuth 2.0](https://oauth.net/2/) (Protocol)
+  - [JWT Bearer](https://jwt.io/introduction) (Token type)
+- Recommended IDE: [Visual Studio](https://visualstudio.microsoft.com/) 2022
