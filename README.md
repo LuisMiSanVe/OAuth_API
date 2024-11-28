@@ -1,5 +1,11 @@
 > [Ver en ingles/See in english](https://github.com/LuisMiSanVe/OAuth_API/tree/main)
 # 🔐 C# REST API con OAuth 2.0
+[![image](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)](https://dotnet.microsoft.com/en-us/languages/csharp)
+[![image](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet)
+[![image](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=Swagger&logoColor=white)](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)
+[![image](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white)](https://jwt.io/introduction)
+[![image](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)](https://visualstudio.microsoft.com/)
+
 REST API tematizada de Clientes con OAuth 2.0 implementado y un Servidor de Identidad integrado (como una clase) con jerarquia de usuarios.
 ## 📝 Explicación de OAuth 2.0
 OAuth 2.0 es un protocolo basado en la verificación por tokens. Su implementación requiere un Servidor de Autentificación (Servidor OAuth) y el Servidor de Recursos.
