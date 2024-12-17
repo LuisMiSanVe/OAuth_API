@@ -10,7 +10,7 @@ It's an client-themed REST API Template with OAuth 2.0 implemented in a built-in
 ## 📝 OAuth 2.0 Explanation
 OAuth 2.0 is an token-based authentication protocol. It's implementation consists in having an Authentication Server (OAuth Server) and a Resource Server.
 As you can see in the image, the process is split in two, the green part would be the authentication part where the OAuth 2.0 protocol takes place and the orange one, where the authorization takes place.\
-<img src="/RepositoryResources/oauthprocess.png" width="500" alt="OAuth 2.0 Protocol Explanation Process">
+<img src="https://github.com/LuisMiSanVe/LuisMiSanVe/blob/main/Resources/OauthAPI/oauthprocess.png" width="500" alt="OAuth 2.0 Protocol Explanation Process">
 ## 📖 About the project
 This is a functional Template where you have 2 sections (controllers):
 - Login: it contains the Login Endpoint, where you need to introduce your user credentials in order to get a session Token.
@@ -28,7 +28,7 @@ The main files of the project are:
 Using the image above as guiance, the green part, as I said earlier, is the authentication process, it happens when a client logs in successfully and gets an JWT Bearer-type Token.\
 Meanwhile the orange part, the authorization process, ocurs when the client, already logged in, tries to access a endpoint, and if the token is valid, it returns the resources given by the endpoint.\
 This repository is meant to be used as a template for your new securized REST API.
-> This is a summary of the [Documentation](/RepositoryResources/Documentation.pdf) which includes a short guide.
+> This is a summary of the [Documentation](https://github.com/LuisMiSanVe/LuisMiSanVe/blob/main/Resources/OauthAPI/Documentation.pdf) which includes a short guide.
 
 ## 🎨 Customization Options
 A bunch of the Swashbuckle's Swagger customization options are included in the template.\
