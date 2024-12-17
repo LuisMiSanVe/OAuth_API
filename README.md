@@ -10,7 +10,7 @@ REST API tematizada de Clientes con OAuth 2.0 implementado y un Servidor de Iden
 ## 📝 Explicación de OAuth 2.0
 OAuth 2.0 es un protocolo basado en la verificación por tokens. Su implementación requiere un Servidor de Autentificación (Servidor OAuth) y el Servidor de Recursos.
 Como se puede ver en la imagen, el proceso se diferencia en dos partes, la verde sería la autentificación donde el protocolo de OAuth 2.0 está en funcionamiento y la parte naranja, donde la autorización ocurre.\
-<img src="/RepositoryResources/oauthprocess.png" width="500" alt="Explicación del proceso del protocolo OAuth 2.0">
+<img src="https://github.com/LuisMiSanVe/LuisMiSanVe/blob/main/Resources/OauthAPI/oauthprocess.png" width="500" alt="Explicación del proceso del protocolo OAuth 2.0">
 ## 📖 Sobre el proyecto
 Es una plantilla funcional con dos secciones (Controladores):
 - Login: contiene el endpoint de Inicio de Sesión, donde debes poner las credenciales de tu usuario para conseguir un token de sesión.
@@ -28,7 +28,7 @@ Los archivos principales del proyecto son:
 Usando la imagen de arriba como guía, la parte verde, como expliqué antes, es el proceso de autentificación, este ocurre cuando el usuario inicia sesión correctamente y consigue un token tipo JWT Bearer.\
 Mientras que la parte naranja, el proceso de autorización, ocurre cuando el usuario, con la sesión ya activa, intenta acceder un endpoint, y si el token es válido, devuelve el recurso solicitado por el endpoint.\
 Este repositorio está pensado para ser una plantilla para tu nueva REST API securizada.
-> Este es un resumen de la [Documentación](/RepositoryResources/Documentation.pdf) que incluye una pequeña guia.
+> Este es un resumen de la [Documentación](https://github.com/LuisMiSanVe/LuisMiSanVe/blob/main/Resources/OauthAPI/DocumentacionESP.pdf) que incluye una pequeña guia.
 
 ## 🎨 Opciones de Personalización
 Muchas de las opciones del Swagger de Swashbuckle están incluidos en la plantilla.\
