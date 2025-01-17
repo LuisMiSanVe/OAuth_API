@@ -1,4 +1,4 @@
-> [See in spanish/Ver en español](https://github.com/LuisMiSanVe/OAuth_API/tree/spanish)
+> [See in spanish/Ver en español](https://github.com/LuisMiSanVe/OAuth_API/blob/main/README.es.md)
 # 🔐 C# REST API with OAuth 2.0
 [![image](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)](https://dotnet.microsoft.com/en-us/languages/csharp)
 [![image](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet)
