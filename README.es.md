@@ -11,6 +11,8 @@ REST API tematizada de Clientes con OAuth 2.0 implementado y un Servidor de Iden
 OAuth 2.0 es un protocolo basado en la verificación por tokens. Su implementación requiere un Servidor de Autentificación (Servidor OAuth) y el Servidor de Recursos.
 Como se puede ver en la imagen, el proceso se diferencia en dos partes, la verde sería la autentificación donde el protocolo de OAuth 2.0 está en funcionamiento y la parte naranja, donde la autorización ocurre.\
 <img src="https://github.com/LuisMiSanVe/LuisMiSanVe/blob/main/Resources/OauthAPI/oauthprocess.png" width="500" alt="Explicación del proceso del protocolo OAuth 2.0">
+
+Fuente: [Oracle](https://docs.oracle.com/cd/B31315_01/191000/BDI%20Implementation%20Guide/Output/oauth.htm)
 ## 📖 Sobre el proyecto
 Es una plantilla funcional con dos secciones (Controladores):
 - Login: contiene el endpoint de Inicio de Sesión, donde debes poner las credenciales de tu usuario para conseguir un token de sesión.
