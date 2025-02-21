@@ -1,3 +1,4 @@
+> [See in spanish/Ver en español](https://github.com/LuisMiSanVe/OAuth_API/blob/oauthonly/README.es.md)
 # 🔐 C# REST API with OAuth 2.0
 It's an client-themed REST API Template with OAuth 2.0 implemented in a built-in Identity Server (as a class) with user hierarchy.
 ## 📝 OAuth 2.0 Explanation
