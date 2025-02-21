@@ -1,4 +1,4 @@
-> [Ver en ingles/See in english](https://github.com/LuisMiSanVe/OAuth_API/tree/main)
+> [Ver en ingles/See in english](https://github.com/LuisMiSanVe/OAuth_API/tree/oauthonly)
 # 🔐 C# REST API con OAuth 2.0
 [![image](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)](https://dotnet.microsoft.com/en-us/languages/csharp)
 [![image](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet)
