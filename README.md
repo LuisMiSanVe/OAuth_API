@@ -21,7 +21,7 @@ The main files of the project are:
 Using the image above as guiance, the green part, as I said earlier, is the authentication process, it happens when a client logs in successfully and gets an JWT Bearer-type Token.\
 Meanwhile the orange part, the authorization process, ocurs when the client, already logged in, tries to access a endpoint, and if the token is valid, it returns the resources given by the endpoint.\
 This repository is meant to be used as a template for your new securized REST API.
-> This is a summary of the [Documentation](https://github.com/LuisMiSanVe/LuisMiSanVe/blob/main/Resources/OauthAPI/Documentation.pdf) which includes a short guide.
+
 ## 💻 Technologies used
 - Programming Lenguage: [C#](https://dotnet.microsoft.com/en-us/languages/csharp)
 - Framework: [ASP.NET Core](https://dotnet.microsoft.com/en-us/apps/aspnet) (Project made with [.Net](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet) 8.0 Framework)
