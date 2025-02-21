@@ -30,7 +30,6 @@ Los archivos principales del proyecto son:
 Usando la imagen de arriba como guía, la parte verde, como expliqué antes, es el proceso de autentificación, este ocurre cuando el usuario inicia sesión correctamente y consigue un token tipo JWT Bearer.\
 Mientras que la parte naranja, el proceso de autorización, ocurre cuando el usuario, con la sesión ya activa, intenta acceder un endpoint, y si el token es válido, devuelve el recurso solicitado por el endpoint.\
 Este repositorio está pensado para ser una plantilla para tu nueva REST API securizada.
-> Este es un resumen de la [Documentación](https://github.com/LuisMiSanVe/LuisMiSanVe/blob/main/Resources/OauthAPI/DocumentacionESP.pdf) que incluye una pequeña guia.
 
 ## 🎨 Opciones de Personalización
 Muchas de las opciones del Swagger de Swashbuckle están incluidos en la plantilla.\
